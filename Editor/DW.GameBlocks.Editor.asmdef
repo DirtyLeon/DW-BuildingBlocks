@@ -1,0 +1,17 @@
+{
+    "name": "DW.GameBlocks.Editor",
+    "rootNamespace": "",
+    "references": [
+        "DW.GameBlocks.Runtime",
+        "UnityEditor.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
