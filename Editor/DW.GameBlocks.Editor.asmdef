@@ -2,10 +2,11 @@
     "name": "DW.GameBlocks.Editor",
     "rootNamespace": "",
     "references": [
-        "DW.GameBlocks.Runtime",
-        "UnityEditor.UI"
+        "DW.GameBlocks.Runtime"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
