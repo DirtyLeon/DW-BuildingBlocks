@@ -14,7 +14,12 @@ namespace DirtyWorks.GameBlocks
     {
         private SerializedProperty executeOnEnable, executeOnStart;
         private ReorderableList _list;
-        
+
+        private void OnEnable()
+        {
+            Init();
+        }
+
         private void Init()
         {
             executeOnEnable = serializedObject.FindProperty("ExecuteOnEnable");
@@ -31,7 +36,6 @@ namespace DirtyWorks.GameBlocks
 
         public override void OnInspectorGUI()
         {
-            Init();
             GameActions gameActions = (GameActions)target;
             serializedObject.Update();
             EditorGUILayout.PropertyField(executeOnEnable);
