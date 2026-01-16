@@ -8,10 +8,11 @@ This is a visual scripting package I designed for my own usage, maybe I'll publi
 
 It provides a simple, extendable system where behaviors are constructed from small, focused "blocks" that can be executed sequentially.
 
-```csharp=
-Update: DOTween Support package is now released.
+### Update
+
+!! DOTween Support package is now released.
+
 https://github.com/DirtyLeon/DW-BuildingBlocks-addon-DOTween
-```
 
 ---
 
