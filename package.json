@@ -1,6 +1,6 @@
 {
   "name": "com.dirtyworks.building-blocks",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "displayName": "DW Game Building Blocks",
   "description": "A quick and simple, modulizable interaction setup system.",
   "unity": "2021.3",

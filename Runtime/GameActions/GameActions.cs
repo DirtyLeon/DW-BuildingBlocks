@@ -30,6 +30,9 @@ namespace DirtyWorks.GameBlocks
 
         public void ExecuteList()
         {
+            if (!gameObject.activeSelf || !enabled)
+                return;
+
             if(Application.isPlaying)
                 StartCoroutine(ExecuteListCoroutine());
         }
