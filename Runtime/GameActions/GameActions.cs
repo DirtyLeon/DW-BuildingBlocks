@@ -33,10 +33,11 @@ namespace DirtyWorks.GameBlocks
                 ExecuteList();
         }
 
-        private bool CheckCanExecute() => (!gameObject.activeSelf || !enabled);
+        private bool CheckCanExecute() => (gameObject.activeSelf && enabled);
 
         public void ExecuteList()
         {
+            Debug.Log("Result: " + CheckCanExecute());
             if (!CheckCanExecute())
                 return;
 
