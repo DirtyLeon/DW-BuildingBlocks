@@ -19,6 +19,11 @@ namespace DirtyWorks.GameBlocks
                 ExecuteList();
         }
 
+        private void OnDisable()
+        {
+            StopList();
+        }
+
         private void Start()
         {
             if (ExecuteOnEnable)
@@ -28,13 +33,20 @@ namespace DirtyWorks.GameBlocks
                 ExecuteList();
         }
 
+        private bool CheckCanExecute() => (!gameObject.activeSelf || !enabled);
+
         public void ExecuteList()
         {
-            if (!gameObject.activeSelf || !enabled)
+            if (!CheckCanExecute())
                 return;
 
             if(Application.isPlaying)
                 StartCoroutine(ExecuteListCoroutine());
+        }
+
+        public void StopList()
+        {
+            StopAllCoroutines();
         }
 
         IEnumerator ExecuteListCoroutine()
