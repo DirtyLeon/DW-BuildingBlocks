@@ -37,7 +37,6 @@ namespace DirtyWorks.GameBlocks
 
         public void ExecuteList()
         {
-            Debug.Log("Result: " + CheckCanExecute());
             if (!CheckCanExecute())
                 return;
 
