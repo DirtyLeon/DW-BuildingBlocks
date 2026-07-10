@@ -1,6 +1,6 @@
 {
     "name": "DW.GameBlocks.Runtime",
-    "rootNamespace": "DirtyWirks.GameBlocks",
+    "rootNamespace": "DirtyWorks.GameBlocks",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

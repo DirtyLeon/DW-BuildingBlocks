@@ -13,7 +13,7 @@ namespace DirtyWorks.GameBlocks.Utils
             {"CallUnityEvent", "Invoke UnityEvent" },
             {"LoadSceneAction", "Load Scene" },
             {"SetPosition", "Set Position" },
-            {"SetEularAngle", "Set EularAngles"},
+            {"SetEulerAngle", "Set EulerAngles"},
             {"SetScale", "Set LocalScale" }
         };
 

@@ -14,5 +14,12 @@
     "name": "DirtyLeon",
     "email": "bsexp357079@gmail.com",
     "url": "https://sites.google.com/view/dirtyworksstudio"
-  }
+  },
+  "samples": [
+        {
+            "displayName": "GameActions Sample",
+            "description": "Contains a sample scene for testing GameActions",
+            "path": "Samples~/GameActions Sample"
+        }
+    ]
 }

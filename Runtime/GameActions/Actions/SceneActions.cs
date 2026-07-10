@@ -10,10 +10,7 @@ namespace DirtyWorks.GameBlocks
         public int sceneIndex = 0;
         public string sceneName = "";
 
-        public virtual void DoAction()
-        {
-            
-        }
+        public abstract void DoAction();
 
         public virtual void Run() => DoAction();
 
